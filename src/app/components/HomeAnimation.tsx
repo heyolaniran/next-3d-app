@@ -35,7 +35,7 @@ export default function HomeAnimation( ) {
 
                     <Button type="filled" 
                     handleClick={() => state.intro = false } title="Customize It"
-                     customStyle='w-4 px-4 py-2.5 font-bold text-sm' />
+                     customStyle='w-fit px-4 py-2 rounded-md font-bold text-sm' />
                 </motion.div>
             </motion.div>
             
